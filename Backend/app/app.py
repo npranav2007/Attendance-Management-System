@@ -1,5 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+import app.models.models # imports all models
+from app.db.postgresql.db import init_db
+
+init_db()
 
 # Create FastAPI instance
 app = FastAPI(
