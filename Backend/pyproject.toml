@@ -7,7 +7,9 @@ requires-python = ">=3.12"
 dependencies = [
     "cryptography>=46.0.1",
     "fastapi[standard]>=0.116.2",
+    "passlib>=1.7.4",
     "psycopg2-binary>=2.9.10",
     "python-dotenv>=1.1.1",
+    "python-jose>=3.5.0",
     "sqlalchemy>=2.0.43",
 ]
